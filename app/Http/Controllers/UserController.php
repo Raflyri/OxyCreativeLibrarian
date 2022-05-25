@@ -40,7 +40,7 @@ class UserController extends Controller
         User::create([
             'name' => $request->name,
             'email' => $request->email,
-            'nohp' => $request->nohp,
+            //'nohp' => $request->nohp,
             'password' => $request->password,
             'level' => $request->level
         ]);
