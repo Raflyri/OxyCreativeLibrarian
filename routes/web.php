@@ -42,7 +42,6 @@ Route::post('/storestudent', [
 ]);
 
 // Book Router
-
 Route::get('/createbook', [
     'uses' =>  'bookController@create',
     'as' => 'create.book'
@@ -60,7 +59,6 @@ Route::post('/storebook', [
 
 
 // Book Issue Router
-
 Route::get('/createissue/{id}', [
     'uses' =>  'issueController@create',
     'as' => 'issue.book'
