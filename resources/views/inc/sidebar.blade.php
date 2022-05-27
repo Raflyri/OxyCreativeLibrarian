@@ -18,12 +18,12 @@
                             <span class="mini-click-non">Book Page</span>
                         </a>
                         <ul class="submenu-angle" aria-expanded="false">
-                            <li>
+                            <!--li>
                                 <a title="Landing Page" href="{{route('create.book')}}" aria-expanded="false">
                                     <span class="educate-icon educate-library icon-wrap" aria-hidden="true"></span>
                                     <span class="mini-click-non">Add New Book</span>
                                 </a>
-                            </li>
+                            </li-->
 
                             <li>
                                 <a title="Landing Page" href="{{route('view.book')}}" aria-expanded="false">

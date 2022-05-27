@@ -62,7 +62,7 @@
                         <div class="from-group row">
                             <label class="col-md-4 col-form-label text-md-right" for="level">Register as</label>
                             <div class="col-md-6">
-                                <select id="level" type="level" class="form-control" value="{{ old('level') }}" name="level" required>
+                                <select id="level" type="level" class="form-control @error('level') is-invalid @enderror" value="{{ old('level') }}" name="level" required autocomplete="level">
                                     <option value="" disabled selected>Choose option</option>
                                     <option value="1">Student</option>
                                     <option value="2">Administrator</option>
